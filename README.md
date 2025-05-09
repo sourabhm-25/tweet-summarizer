@@ -43,7 +43,14 @@ It is tailored for Twitter-like platforms to reduce content fatigue and enhance 
 
 
 
-<pre lang="markdown"><code>```bash tweet-summarizer/ ├── public/ # Static assets ├── src/ # React frontend code ├── server/ # Express backend logic ├── .env # API credentials (not committed) ├── README.md ├── package.json └── vite.config.ts ```</code></pre>
+tweet-summarizer/
+├── public/ # Static assets
+├── src/ # React frontend code
+├── server/ # Express backend logic
+├── .env # API credentials (not committed)
+├── README.md
+├── package.json
+└── vite.config.ts
 
 
 
