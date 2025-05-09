@@ -1,14 +1,4 @@
 
-
-## 🚀 Project Submission: Tweet Summarizer API
-
-**Team / Author:** Sourabh (solo)
-**Project Name:** Tweet Summarizer API
-**Category:** Social Media Remix & AI Enhancement
-
-
----
-
 ## 🎯 What Did You Build?
 
 I cloned Twitter’s core feed UI and added an **AI‑powered “Summarize”** button under every tweet. When clicked, it:
@@ -40,15 +30,3 @@ This enhances readability and engagement by letting users skim conversations at 
 * **Deployment:** Vercel for frontend, Render/Heroku for backend (optional)
 
 ---
-
-## 📈 Why It Wins
-
-* **Visual Accuracy:** Faithful Twitter clone with dark mode
-* **Completeness:** All UI elements (like, retweet, reply, summarize) present
-* **Functionality:** Fully working summarization flow, error handling, mobile‑responsive
-* **New Enhancement:** First end‑to‑end AI summarizer built directly into a microblog feed
-
----
-
-
-Thank you for reviewing my submission! 🚀
