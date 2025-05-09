@@ -1,32 +1,187 @@
+Thanks! Based on your project structure (`server`, `src`, `public`, etc.), it looks like you have a **full-stack application** with a **React frontend** and a **Node.js/Express backend** hosted on [Vercel](https://tweet-summarizer.vercel.app).
 
-## 🎯 What Did You Build?
-
-I cloned Twitter’s core feed UI and added an **AI‑powered “Summarize”** button under every tweet. When clicked, it:
-
-1. Sends the tweet text to a lightweight Express.js API
-2. Calls Hugging Face’s `facebook/bart-large-cnn` model via the Inference API
-3. Returns a concise, one‑sentence summary displayed in a drop‑up panel
-
-This enhances readability and engagement by letting users skim conversations at a glance.
+Here’s a **refined and complete README.md** file tailored to your hackathon submission, matching your project setup:
 
 ---
 
-## ✨ Key Features
+```markdown
+# 🧠 Tweet Summarizer
 
-* **Pixel‑perfect UI** matching Twitter’s look & feel
-* **Summarize button** on each tweet with loading state
-* **Drop‑up panel** showing original text + AI summary
-* **Secure API** using environment variables (no keys exposed)
-* **CORS‑enabled** for easy frontend/backend integration
+An intelligent web application that condenses long tweet threads and textual content into concise, human-readable summaries using cutting-edge NLP.
+
+🔗 Live Demo: [tweet-summarizer.vercel.app](https://tweet-summarizer.vercel.app)
+
+---
+
+## 🚀 Project Overview
+
+This project showcases a full-stack implementation of an abstractive text summarizer:
+- Frontend built with **React + TypeScript + TailwindCSS**
+- Backend powered by **Node.js (Express)** and **Hugging Face’s BART model**
+- API deployed via **Vercel**, enabling fast, serverless inference delivery
+
+It is tailored for Twitter-like platforms to reduce content fatigue and enhance user engagement through quick content consumption.
 
 ---
 
-## 🛠 Tech Stack & Tools
+## ⚙️ Tech Stack
 
-* **Frontend:** React (Vite) + Tailwind CSS
-* **Backend:** Node.js + Express.js
-* **AI Model:** Hugging Face Inference API (`facebook/bart-large-cnn`)
-* **HTTP Client:** Axios
-* **Deployment:** Vercel for frontend, Render/Heroku for backend (optional)
+### Frontend
+- React (with Vite + TypeScript)
+- TailwindCSS
+- Axios
+
+### Backend
+- Node.js + Express
+- Hugging Face Inference API
+- dotenv (for secure token management)
+
+### Deployment
+- **Frontend**: Vercel
+- **API**: Vercel Serverless Functions
 
 ---
+
+## 📁 Directory Structure
+
+```
+
+tweet-summarizer/
+├── public/              # Static assets
+├── src/                 # React frontend code
+├── server/              # Express backend logic
+├── .env                 # API credentials (not committed)
+├── README.md
+├── package.json
+└── vite.config.ts
+
+````
+
+---
+
+## 🧪 Running the Project Locally
+
+### Prerequisites
+- Node.js (v16+)
+- npm or yarn
+- Hugging Face account (free)
+
+---
+
+### 🔐 Step 1: Obtain Hugging Face API Token
+
+1. Sign in at [huggingface.co](https://huggingface.co)
+2. Go to **Settings → Access Tokens**
+3. Create a new token with **read access**
+4. Copy the token
+
+---
+
+### 🧰 Step 2: Setup Backend (API)
+
+1. Navigate to the `server/` directory:
+   ```bash
+   cd server
+````
+
+2. Create a `.env` file:
+
+   ```bash
+   touch .env
+   ```
+
+3. Add your token:
+
+   ```
+   HUGGINGFACE_API_KEY=your_token_here
+   ```
+
+4. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+5. Start the server:
+
+   ```bash
+   node index.js
+   ```
+
+Server runs on: `http://localhost:5000/api/summarize`
+
+---
+
+### 🖥️ Step 3: Run the Frontend
+
+1. Go back to root and install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+2. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+Frontend runs on: `http://localhost:5173`
+
+---
+
+## 🧠 API Reference
+
+### `POST /api/summarize`
+
+| Parameter | Type   | Description                   |
+| --------- | ------ | ----------------------------- |
+| `text`    | string | Input paragraph or tweet data |
+
+#### Example Request:
+
+```json
+{
+  "text": "OpenAI released ChatGPT to the public. It quickly gained popularity..."
+}
+```
+
+#### Example Response:
+
+```json
+{
+  "summary": "ChatGPT became widely popular after OpenAI's release."
+}
+```
+
+---
+
+## ✨ Features
+
+* Instant tweet/thread summarization
+* Fully responsive UI
+* Supports large text bodies
+* Reliable error handling
+* Token-secured backend integration
+
+---
+
+## 🧑‍💻 Author
+
+Developed by **[Sourabh Mujumale](https://github.com/sourabhm-25)**
+Crafted for Hackathon submission 💡
+
+---
+
+## 📄 License
+
+Licensed under the [MIT License](LICENSE).
+
+---
+
+```
+
+---
+
+Let me know if you'd like this auto-generated into a downloadable `README.md` file!
+```
