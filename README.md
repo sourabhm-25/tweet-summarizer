@@ -1,6 +1,4 @@
-Thanks! Based on your project structure (`server`, `src`, `public`, etc.), it looks like you have a **full-stack application** with a **React frontend** and a **Node.js/Express backend** hosted on [Vercel](https://tweet-summarizer.vercel.app).
-
-Here’s a **refined and complete README.md** file tailored to your hackathon submission, matching your project setup:
+Here is your refined and fully formatted `README.md` file that you can **directly copy and paste** into your GitHub project:
 
 ---
 
@@ -9,7 +7,7 @@ Here’s a **refined and complete README.md** file tailored to your hackathon su
 
 An intelligent web application that condenses long tweet threads and textual content into concise, human-readable summaries using cutting-edge NLP.
 
-🔗 Live Demo: [tweet-summarizer.vercel.app](https://tweet-summarizer.vercel.app)
+🔗 **Live Demo**: [tweet-summarizer.vercel.app](https://tweet-summarizer.vercel.app)
 
 ---
 
@@ -80,53 +78,55 @@ tweet-summarizer/
 ### 🧰 Step 2: Setup Backend (API)
 
 1. Navigate to the `server/` directory:
-   ```bash
-   cd server
+
+```bash
+cd server
 ````
 
 2. Create a `.env` file:
 
-   ```bash
-   touch .env
-   ```
+```bash
+touch .env
+```
 
 3. Add your token:
 
-   ```
-   HUGGINGFACE_API_KEY=your_token_here
-   ```
+```env
+HUGGINGFACE_API_KEY=your_token_here
+```
 
-4. Install dependencies:
+4. Install backend dependencies:
 
-   ```bash
-   npm install
-   ```
+```bash
+npm install
+```
 
 5. Start the server:
 
-   ```bash
-   node index.js
-   ```
+```bash
+node index.js
+```
 
-Server runs on: `http://localhost:5000/api/summarize`
+> Server runs on: `http://localhost:5000/api/summarize`
 
 ---
 
 ### 🖥️ Step 3: Run the Frontend
 
-1. Go back to root and install dependencies:
+1. Navigate back to the root directory and install frontend dependencies:
 
-   ```bash
-   npm install
-   ```
+```bash
+cd ..
+npm install
+```
 
 2. Start the development server:
 
-   ```bash
-   npm run dev
-   ```
+```bash
+npm run dev
+```
 
-Frontend runs on: `http://localhost:5173`
+> Frontend runs on: `http://localhost:5173`
 
 ---
 
@@ -177,11 +177,9 @@ Crafted for Hackathon submission 💡
 
 Licensed under the [MIT License](LICENSE).
 
----
-
 ```
 
 ---
 
-Let me know if you'd like this auto-generated into a downloadable `README.md` file!
+Let me know if you also want a downloadable `.md` file version or help pushing it to GitHub!
 ```
