@@ -172,3 +172,16 @@ Developed by **[Sourabh Mujumale](https://github.com/sourabhm-25)**
 Crafted for Hackathon submission 💡
 
 ---
+
+## 📄 License
+
+Licensed under the [MIT License](LICENSE).
+
+---
+
+```
+
+---
+
+Let me know if you'd like this auto-generated into a downloadable `README.md` file!
+```
