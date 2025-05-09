@@ -170,9 +170,6 @@ Crafted for Hackathon submission 💡
 
 ---
 
-## 📄 License
-
-Licensed under the [MIT License](LICENSE).
 
 ---
 
@@ -180,7 +177,7 @@ Licensed under the [MIT License](LICENSE).
 
 ---
 
-Let me know if you'd like this auto-generated into a downloadable `README.md` file! 
+
 ```
 
 
