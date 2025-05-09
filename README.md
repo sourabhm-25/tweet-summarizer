@@ -1,7 +1,7 @@
 
 ---
 
-```markdown
+
 # 🧠 Tweet Summarizer
 
 An intelligent web application that condenses long tweet threads and textual content into concise, human-readable summaries using cutting-edge NLP.
@@ -41,7 +41,7 @@ It is tailored for Twitter-like platforms to reduce content fatigue and enhance 
 
 ## 📁 Directory Structure
 
-```
+
 
 tweet-summarizer/
 ├── public/              # Static assets
@@ -52,7 +52,7 @@ tweet-summarizer/
 ├── package.json
 └── vite.config.ts
 
-````
+
 
 ---
 
@@ -73,7 +73,7 @@ tweet-summarizer/
 4. Copy the token
 
 ---
-````
+
 ### 🧰 Step 2: Setup Backend (API)
 
 1. Navigate to the `server/` directory:
@@ -183,4 +183,4 @@ Licensed under the [MIT License](LICENSE).
 Let me know if you'd like this auto-generated into a downloadable `README.md` file! 
 ```
 
-give this in format soo i can directly copy and paste it
+
