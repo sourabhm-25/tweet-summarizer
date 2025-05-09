@@ -41,7 +41,7 @@ It is tailored for Twitter-like platforms to reduce content fatigue and enhance 
 
 ## 📁 Directory Structure
 
-
+```markdown 
 
 tweet-summarizer/
 ├── public/ # Static assets
@@ -52,7 +52,7 @@ tweet-summarizer/
 ├── package.json
 └── vite.config.ts
 
-
+```
 
 ---
 
